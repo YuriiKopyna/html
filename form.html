@@ -9,16 +9,13 @@
 <body>
     <a href="index.html">Home Page</a>
     
-    <form method="GET" action="">
+    <form method="POST" action="https://formspree.io/diesel6@i.ua">
         <label for="name">Name:</label>
-        <input type="text" id="name" 
-            placeholder="Name" required 
-            name="user-name">
-            <br>
-        <label>
-            Email:<input type="email" name="user-mail" placeholder="Email">
-        </label>
-        <input type="submit">
+        <input type="text" id="name" name="user-name" placeholder="Write your name" required>
+        <br>
+        <label for="">Email: <input type="email" name="user-email" placeholder="Write your email" required></label>
+        <br>
+        <input type="submit" name="Submit">
     </form>
 </body>
 </html>
